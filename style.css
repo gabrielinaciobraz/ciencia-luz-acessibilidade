@@ -1,0 +1,94 @@
+/* Configurações Globais para Acessibilidade */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte sem serifa */
+    background-color: #000000; /* Preto */
+    color: #ffffff; /* Branco */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0056b3; /* Azul escuro com bom contraste */
+    border-bottom: 4px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #e6e6e6;
+}
+
+/* Seções Principais */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #121212; /* Fundo escuro suave */
+    border: 2px solid #0056b3; /* Borda Azul */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3399ff; /* Azul claro para destaque */
+    margin-bottom: 12px;
+    border-bottom: 1px solid #3399ff;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Glossário */
+.glossario ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.glossario li {
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+/* Links em Alto Contraste */
+a {
+    color: #80bfff; /* Azul claro legível */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover, a:focus {
+    background-color: #ffffff;
+    color: #000000;
+    outline: 2px solid #3399ff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-top: 20px;
+}
